@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity"
+    android:background="?attr/layoutColor">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/chronometer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="right"
+        android:textSize="45sp"
+        android:layout_weight="6"
+        android:textColor="?attr/textColor"/>
+    <TextView
+        android:id="@+id/chronometer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="left"
+        android:textSize="30sp"
+        android:layout_weight="12"
+        android:textColor="?attr/textColor"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/baslat"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_button"
+            android:textColor="?attr/textColor"
+            android:layout_margin="8dp"
+            android:drawableLeft="@drawable/power"
+            android:paddingLeft="20dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/power"
+            android:paddingStart="20dp" />
+
+        <Button
+            android:id="@+id/durdur"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_button"
+            android:drawableLeft="@drawable/pause"
+            android:textColor="?attr/textColor"
+            android:layout_margin="8dp"
+            android:paddingLeft="20dp"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/pause"
+            android:paddingStart="20dp" />
+
+        <Button
+            android:id="@+id/sıfırla"
+            android:layout_width="40dp"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_button"
+            android:textColor="?attr/textColor"
+            android:drawableLeft="@drawable/restart"
+            android:paddingLeft="20dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:paddingStart="20dp"
+            android:drawableStart="@drawable/restart" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/listeleme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/textColor">
+
+        </TextView>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Ayarlar</string>
+    <string name="cont">Devam</string>
+    <string name="reset">Sıfırla</string>
+    <string name="start">Başlat</string>
+    <string name="stop">Durdur</string>
+    <string name="title_activity_settings2">Ayarlar</string>
+    <string name="title_activity_settings">Ayarlar</string>
+    <string name="app_name">Kronometre</string>
+    <string name="sett1">Hassaslığı Değiştir</string>
+    <string name="sett2">Gece Modunu Aç</string>
+    <string name="msec">Milisaniye</string>
+    <string name="sec">Saniye</string>
+</resources>
